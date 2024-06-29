@@ -1,0 +1,53 @@
+.app-container {
+  height: 100vh;
+}
+
+mat-toolbar {
+  background: lightgray;
+  color: #000000;
+  font-size: 20px;
+}
+
+mat-icon {
+  margin-right: 8px;
+}
+
+mat-list-item {
+  display: flex;
+  align-items: center;
+}
+
+mat-nav-list {
+  padding: 0;
+}
+
+mat-expansion-panel-header {
+  padding: 0 16px;
+}
+
+mat-expansion-panel-header mat-panel-title {
+  display: flex;
+  align-items: center;
+}
+
+mat-expansion-panel-header mat-icon {
+  margin-right: 8px;
+}
+
+mat-list-item.active-link,
+mat-list-item.active-link span,
+mat-list-item.active-link mat-icon {
+  color: #1976d2; /* Example color for active link */
+  font-weight: bold;
+}
+
+a.active-link {
+  color: #1976d2; /* Example color for active link */
+  font-weight: bold;
+}
+
+
+
+.nav-spacer {
+  flex: 1 1 auto;
+}
